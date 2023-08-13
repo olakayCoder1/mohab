@@ -4,7 +4,7 @@ import { Header } from '../components/header/Header'
 import { Hero } from '../components/welcome/Hero'
 import { HeroItems } from '../components/welcome/HeroItems'
 import { Footer } from '../components/Footer'
-
+import { Testimoy } from '../components/welcome/Testimoy'
 
 export function Welcome() {
     
@@ -13,6 +13,9 @@ export function Welcome() {
         <>
             <Hero />
             <HeroItems />
+            <Testimoy />
         </>
     )
 }
+
+

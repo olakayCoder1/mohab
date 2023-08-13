@@ -15,7 +15,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className=' font-inconsolata text-base font-light'>
       <Header />
       <Routes>
         <Route path="/" element={<Welcome />} />
@@ -24,7 +24,7 @@ function App() {
         <Route path="/contactus" element={<Contact />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   )
 }
 

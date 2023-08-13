@@ -5,7 +5,13 @@ export default {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        headingFont : ['DM Serif Display', 'serif'],
+        inconsolata:[ 'Inconsolata', 'monospace'],
+        noto: ['Manrope', 'sans-serif'],
+      },
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -17,6 +23,10 @@ export default {
       superextralight: '#F5F8FA',
       white: '#FFFFFF',
       totalblack: '#000000',
+      dipbrawn: '#251406',
+      lightbrawn: '#452810',
+      normalbrawn: '#71655d',
+      diporange: '#ea866b',
     }
   },
   plugins: [
